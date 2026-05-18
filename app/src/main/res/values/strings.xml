@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">AdUFoundIT</string>
+
+    
+    <string name="sign_in">Sign in</string>
+    <string name="login">Login</string>
+    <string name="link_email">Link Email</string>
+    <string name="email_not_linked">Email Not Yet Linked?</string>
+    <string name="enter">ENTER</string>
+
+    
+    <string-array name="sort_options">
+        <item>Newest</item>
+        <item>Oldest</item>
+        <item>Most Relevant</item>
+    </string-array>
+
+    
+    <string-array name="drop_off_points">
+        <item>ST. Vincent Gate</item>
+        <item>ST. Theresa Gate</item>
+        <item>Ozonam Gate</item>
+        <item>Cardinal Santos Gate</item>
+    </string-array>
+
+    
+    <string name="settings_button">Settings</string>
+    <string name="search">Search</string>
+    <string name="search_items">Search items...</string>
+    <string name="recent">Recent</string>
+    <string name="enrile_baddie_pics">Enrile Baddie pics</string>
+    <string name="kold_bantutan">kold bantutan</string>
+    <string name="post_item">Post Item</string>
+
+    
+    <string name="back_button">Back</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_name_hint">Money</string>
+    <string name="category">Category</string>
+    <string name="item_description">Item Description:</string>
+    <string name="item_description_hint">Money</string>
+    <string name="item_location">Item Location:</string>
+    <string name="item_date_found">Item Date Found:</string>
+    <string name="select_date">Select Date</string>
+    <string name="item_status">Item Status:</string>
+    <string name="found">Found</string>
+    <string name="lost">Lost</string>
+    <string name="attachment">Attachment:</string>
+    <string name="upload">Upload</string>
+    <string name="post">Post</string>
+    <string name="contact_number_optional">Contact Number (Optional)</string>
+    <string name="contact_number_hint">Enter your contact number</string>
+    <string name="drop_off_point">Drop-off Point</string>
+
+    
+    <string name="filter">Filter</string>
+    <string name="apply">Apply</string>
+    <string name="sort_by">Sort by</string>
+    <string name="all">All</string>
+    <string name="gadgets">Gadgets</string>
+    <string name="school_supplies">School Supplies</string>
+    <string name="bags">Bags</string>
+    <string name="accessories">Accessories</string>
+    <string name="clothing">Clothing</string>
+    <string name="ids">IDs</string>
+    <string name="search_results_placeholder">[ Filter: ALL ]\nShowing results for: Enrile Baddie pics</string>
+
+    
+    <string name="settings">Settings</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="edit_picture">Edit picture</string>
+    <string name="juan_ponce_enrile">Juan Ponce Enrile</string>
+    <string name="username">username</string>
+    <string name="logout">Logout</string>
+    <string name="my_posts">My Posts</string>
+    <string name="claimed">Claimed</string>
+    <string name="profile">Profile</string>
+    <string name="security">Security</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="email_hint">juandelacruz@gmail.com</string>
+    <string name="contact">Contact</string>
+    <string name="contact_hint">099-234-5123</string>
+    <string name="save">Save</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Enter new password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="confirm_password_hint">Confirm new password</string>
+
+    
+    <string name="user_name_placeholder">Yuri Andrei Santiago</string>
+    <string name="time_posted_placeholder">1h</string>
+    <string name="more_options">More options</string>
+    <string name="post_content_placeholder">kanino tong naiwan na baddie pics ni enrile kuhain niyo na</string>
+    <string name="find">Find</string>
+    <string name="no_searches_matched">No Searches Matched</string>
+    <string name="claim_it">Claim It</string>
+    <string name="found_it">Found It</string>
+    <string name="claim_instructions">Please proceed to the following drop-off point to claim your item:</string>
+    <string name="contact_for_details">For more details, please contact:</string>
+    <string name="submit">Submit</string>
+
+    <string-array name="category_filters">
+        <item>All</item>
+        <item>Accessories</item>
+        <item>Bags</item>
+        <item>Clothing</item>
+        <item>Gadgets</item>
+        <item>IDs</item>
+        <item>School Supplies</item>
+        <item>Others</item>
+    </string-array>
+
+</resources>

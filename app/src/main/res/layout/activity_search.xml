@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="#1976D2"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_revert"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/back_button"
+            app:tint="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/etSearch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/search"
+            android:textColorHint="#BBDEFB"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginStart="8dp"
+            android:background="@android:color/transparent"
+            android:inputType="text"
+            android:autofillHints="" />
+    </LinearLayout>
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filter"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="16dp"/>
+
+            <Button
+                android:id="@+id/btnApplyFilter"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apply"
+                android:textSize="14sp"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sort_by"
+                android:textSize="14sp"
+                android:layout_marginEnd="8dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerSort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From:"
+                android:textSize="14sp"
+                android:layout_marginEnd="8dp"/>
+
+            <EditText
+            android:id="@+id/etDateFrom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Select Date"
+            android:focusable="false"
+            android:clickable="true"
+            android:inputType="none"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To:"
+                android:textSize="14sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="8dp"/>
+
+            <EditText
+                android:id="@+id/etDateTo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Select Date"
+                android:focusable="false"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAll"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all"
+                android:textSize="12sp"
+                android:layout_margin="4dp"/>
+
+            <Button
+                android:id="@+id/btnGadgets"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gadgets"
+                android:textSize="12sp"
+                android:layout_margin="4dp"/>
+
+            <Button
+                android:id="@+id/btnSchoolSupplies"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/school_supplies"
+                android:textSize="12sp"
+                android:layout_margin="4dp"/>
+
+            <Button
+                android:id="@+id/btnBags"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bags"
+                android:textSize="12sp"
+                android:layout_margin="4dp"/>
+
+            <Button
+                android:id="@+id/btnAccessories"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/accessories"
+                android:textSize="12sp"
+                android:layout_margin="4dp"/>
+
+            <Button
+                android:id="@+id/btnClothing"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clothing"
+                android:textSize="12sp"
+                android:layout_margin="4dp"/>
+
+            <Button
+                android:id="@+id/btnIDs"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ids"
+                android:textSize="12sp"
+                android:layout_margin="4dp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    
+    <TextView
+        android:id="@+id/tvSearchResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_results_placeholder"
+        android:padding="16dp"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:background="#FFFFFF"/>
+
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPosts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"/>
+
+</LinearLayout>
